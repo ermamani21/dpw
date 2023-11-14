@@ -1,0 +1,86 @@
+body{
+    background: #a9dbfc;
+}
+nav{
+   
+    max-width: 10000px;
+    margin:0 auto;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul a{
+    display: block;
+    color: #000000;
+    padding: 1rem;
+    text-decoration: none;
+}
+nav ul a:hover {
+    background: rgb(4, 0, 255);
+   
+}
+@media(max-width: 550px){
+        nav ul {
+            flex-direction:column;
+        }
+        nav ul a {
+            text-align: center;
+        }
+    }
+    .container{
+        column-gap: value;
+     row-gap:value;
+        gap :row-gap;
+    grid-template-columns: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+    }
+.contenedor-servicios{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.servicio{
+width: 30%;
+padding: 38px;
+border-radius: 10px;
+margin-bottom: 40px;
+color: #52676d;
+
+flex-basis: auto;
+flex-basis: 100px;
+width:200px  ;
+}
+.violeta{
+background: #1289ad;
+}
+.celeste{
+background: #b6bdbe;
+}
+.servicio h4{
+font-size: 30px;
+margin: 0%;
+
+}
+.servicio img{
+float: right;
+
+flex-basis: auto;
+flex-basis: 100px;
+width:200px  ;
+}
+.CONTACTO{
+background-color:  rgb(186, 187, 138);
+padding: 20px 50px;
+
+text-align: center;
+
+
+}
